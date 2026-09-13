@@ -14,7 +14,7 @@ Formé à la **statistique, l'économétrie et la science des données**, je tra
 
 ## Projets
 
-### 🎬 [sentiment-allocine](https://github.com/aymenben011/sentiment-allocine)
+### 🎬 [NLP Allocine](https://github.com/aymenben011/sentiment-allocine)
 **Analyse de sentiment sur 200 000 critiques de films en français**
 
 Un projet qui va au-delà d'une simple comparaison de modèles de classification :
@@ -28,7 +28,7 @@ Un projet qui va au-delà d'une simple comparaison de modèles de classification
 
 ---
 
-### 📈 [rendements-education-iv](https://github.com/aymenben011/rendements-education-iv)
+### 📈 [Causalité Salaire/Année d'étude supplémentaire](https://github.com/aymenben011/rendements-education-iv)
 **Réplication de Card (1995) — Rendement salarial de l'éducation**
 
 Réplication économétrique étudiant l'effet causal d'une année supplémentaire d'études sur les salaires :
