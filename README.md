@@ -1,116 +1,140 @@
 # Aymen Benseghir
 
-### Data Scientist / Data Analyst
+### Data Scientist · Data Analyst
 
-Data Scientist / Data Analyst junior, formé à la statistique et à l'économétrie.  
-Je travaille sur l'ensemble de la chaîne data : collecte et préparation des données, analyse statistique, modélisation et restitution des résultats à des interlocuteurs non spécialistes.
+Formé à la **statistique, l'économétrie et la science des données**, je travaille sur l'ensemble de la chaîne data : de la préparation et l'analyse des données à la modélisation, l'évaluation statistique et la restitution des résultats aux équipes métier.
 
-📍 France, mobilité nationale · 📧 benseghiraymen26@gmail.com ·  
-💼 [LinkedIn](https://www.linkedin.com/in/aymen-benseghir)
+**Domaines d'intérêt :** Data Science · Data Analysis · Machine Learning · Économétrie · NLP · Business Intelligence
+
+📍 **France — mobilité nationale**  
+📧 **[benseghiraymen26@gmail.com](mailto:benseghiraymen26@gmail.com)**  
+💼 **[LinkedIn](https://www.linkedin.com/in/aymen-benseghir)**
 
 ---
 
 ## Projets
 
 ### 🎬 [sentiment-allocine](https://github.com/aymenben011/sentiment-allocine)
+**Analyse de sentiment sur 200 000 critiques de films en français**
 
-**Analyse de sentiment sur 200 000 critiques de films en français.**
+Un projet qui va au-delà d'une simple comparaison de modèles de classification :
 
-Au-delà de la classification (93,5 % d'exactitude), le projet mesure l'apport des bigrammes face à la négation française en différence de différences, compare les modèles avec un test de McNemar apparié plutôt qu'un simple écart de score, et fait émerger par détection de communautés des regroupements de films correspondant à des genres, sans utiliser d'étiquettes de genre dans le corpus.
+- **93,5 % d'exactitude** sur la classification des critiques ;
+- mesure de l'apport des **bigrammes face à la négation française** via une approche en différence-de-différences ;
+- comparaison statistique des modèles avec le **test de McNemar apparié**, plutôt qu'un simple écart d'accuracy ;
+- détection de communautés dans le réseau de films afin de faire émerger des **regroupements correspondant à des genres**, sans utiliser d'étiquettes de genre dans le corpus.
 
-*Python, scikit-learn, NetworkX, statsmodels.*
+`Python` · `scikit-learn` · `NetworkX` · `statsmodels`
 
 ---
 
 ### 📈 [rendements-education-iv](https://github.com/aymenben011/rendements-education-iv)
+**Réplication de Card (1995) — Rendement salarial de l'éducation**
 
-**Réplication de Card (1995) sur le rendement salarial d'une année d'études.**
+Réplication économétrique étudiant l'effet causal d'une année supplémentaire d'études sur les salaires :
 
-Comparaison entre moindres carrés et variables instrumentales, tests d'identification et simulation Monte-Carlo quantifiant l'effet d'un instrument faible. Implémenté en R, avec tests unitaires et sorties reproductibles en une commande.
+- comparaison **MCO vs variables instrumentales** ;
+- tests d'identification et de pertinence de l'instrument ;
+- simulation **Monte-Carlo** pour mesurer l'impact d'un instrument faible ;
+- tests unitaires et sorties entièrement **reproductibles en une commande**.
 
-*R, AER, ggplot2, testthat.*
+`R` · `AER` · `ggplot2` · `testthat`
 
 ---
 
 ### 📊 [churn-prediction-analysis](https://github.com/aymenben011/churn-prediction-analysis)
+**Prédiction d'attrition client — Telco**
 
-**Analyse de l'attrition client sur le jeu Telco (7 043 clients).**
+Analyse complète du churn sur **7 043 clients**, de l'audit qualité des données jusqu'à la recommandation opérationnelle.
 
-De l'audit qualité des données jusqu'à la recommandation chiffrée. Le seuil de décision est fixé par maximisation du profit (0,405) plutôt que par défaut à 0,50. Le projet montre notamment que le gradient boosting n'apporte pas de gain sur des effets additifs, que le rééquilibrage des classes dégrade la calibration sans améliorer le classement, et que l'optimum empirique du seuil retrouve sa valeur théorique.
+- seuil de décision optimisé par **maximisation du profit : 0,405** ;
+- comparaison de modèles et analyse des effets ;
+- étude de l'impact du **rééquilibrage des classes sur la calibration** ;
+- interprétation avec **SHAP** ;
+- analyse montrant que le gradient boosting n'apporte pas de gain lorsque les effets sont essentiellement additifs ;
+- validation de l'optimum empirique du seuil par rapport à sa valeur théorique.
 
-*Python, scikit-learn, SHAP.*
+`Python` · `scikit-learn` · `SHAP`
 
 ---
 
 ### 💊 [pharmaveille](https://github.com/aymenben011/pharmaveille)
+**Suivi des péremptions et du stock à risque en officine**
 
-**Application de suivi des dates de péremption en officine.**
+Application permettant de suivre les dates de péremption et d'identifier les stocks à risque :
 
-Seuils d'alerte cumulables de 1 à 6 mois, valorisation du stock à risque et export compatible Excel français. La logique métier est isolée de l'interface et couverte par 41 tests automatisés.
+- seuils d'alerte cumulables de **1 à 6 mois** ;
+- valorisation du stock exposé ;
+- export compatible avec **Excel français** ;
+- séparation entre logique métier et interface ;
+- **41 tests automatisés**.
 
-*Python, Streamlit, SQLite.*
+`Python` · `Streamlit` · `SQLite`
 
 ---
 
 ## Expérience
 
-### Data Scientist, Supply Chain — Capgemini Engineering
+### Data Scientist — Supply Chain
+**Capgemini Engineering · Projet SMART SUPPLY / Airbus**  
+*Toulouse · avril — octobre 2025*
 
-**Toulouse · avril–octobre 2025**
+Classification des fournisseurs selon la **matrice de Kraljic**, scoring multi-critères de performance, analyse des déclarations de non-conformité à l'aide de techniques de NLP et développement d'outils de pilotage.
 
-Projet SMART SUPPLY pour Airbus. Classification de fournisseurs selon la matrice de Kraljic, système de scoring multi-axes, analyse des déclarations de non-conformité par traitement du langage naturel, automatisation des pipelines et développement de tableaux de bord.
-
-*Python, SQL, Power BI, R Shiny.*
-
----
-
-### Data Scientist / Data Analyst — Département d'Ille-et-Vilaine
-
-**Rennes · mai–juin 2024**
-
-Modèles de prévision des flux de placement et tableaux de bord R Shiny pour l'exploration des indicateurs et le suivi de l'activité par les équipes métier.
-
-*R, Python, SQL.*
+**Environnement :** `Python` · `SQL` · `Power BI` · `R Shiny`
 
 ---
 
-### Data Analyst, Supply Chain — Tolimar
+### Data Scientist / Data Analyst
+**Département d'Ille-et-Vilaine**  
+*Rennes · mai — juin 2024*
 
-**Casablanca · juin–août 2023**
+Analyse des données de placement et développement de modèles de prévision des flux. Conception de tableaux de bord **R Shiny** permettant aux équipes métier d'explorer les principaux indicateurs.
 
-Analyse des écarts entre production planifiée et réalisée à partir des données ERP et optimisation des niveaux de réapprovisionnement.
+**Environnement :** `R` · `Python` · `SQL`
 
-*R, Python, Excel.*
+---
+
+### Data Analyst — Supply Chain
+**Tolimar**  
+*Casablanca · juin — août 2023*
+
+Analyse des écarts entre production planifiée et production réalisée à partir des données ERP. Analyse des besoins et optimisation des niveaux de réapprovisionnement.
+
+**Environnement :** `R` · `Python` · `Excel`
 
 ---
 
 ## Compétences
 
-**Langages** — Python, SQL, R
+| Domaine | Technologies / méthodes |
+|---|---|
+| **Programmation** | Python · SQL · R |
+| **Machine Learning** | Apprentissage supervisé et non supervisé · Classification · Régression · Clustering |
+| **Statistiques & économétrie** | Inférence statistique · Économétrie · Tests statistiques · Modélisation causale |
+| **Data Science** | Séries temporelles · NLP · LLM · Deep Learning |
+| **Business Intelligence** | Power BI · Tableau · Excel |
+| **Applications data** | Streamlit · R Shiny |
+| **Data & Cloud** | MySQL · NoSQL · BigQuery · Databricks |
+| **Engineering** | Docker · Git · Pipelines de données |
 
-**Machine Learning et statistiques** — Apprentissage supervisé et non supervisé, modèles économétriques, tests statistiques, séries temporelles, traitement du langage naturel, LLM, deep learning
-
-**BI et applications** — Power BI, Tableau, Excel, Streamlit, R Shiny
-
-**Données et outils** — MySQL, NoSQL, BigQuery, Databricks, Docker, Git
-
-**Langues** — Français, anglais (C1)
+**Langues :** Français · Anglais **C1**
 
 ---
 
 ## Formation
 
-| Diplôme | Établissement | Années |
+| Diplôme | Établissement | Période |
 |---|---|---|
-| Master Statistiques, Économétrie et Science des Données | Université de Rennes 1 | 2023–2025 |
-| Licence Génie mathématiques | Université de Rennes 1 | 2020–2023 |
+| **Master Statistiques, Économétrie et Science des Données** | Université de Rennes 1 | 2023–2025 |
+| **Licence Génie mathématiques** | Université de Rennes 1 | 2020–2023 |
 
 ---
 
-## Recherche d'opportunités
+## 🎯 Recherche d'opportunités
 
-Actuellement en recherche d'un poste de **Data Scientist** ou **Data Analyst**, en CDI ou CDD, avec une préférence pour des missions combinant analyse statistique, modélisation, valorisation des données et aide à la décision.
+Je recherche actuellement un poste de **Data Scientist** ou **Data Analyst**, en CDI ou CDD, avec une préférence pour des missions combinant **analyse statistique, modélisation, valorisation des données et aide à la décision**.
 
-📍 **Mobilité nationale**
+**Mobilité nationale.**
 
 📧 [Me contacter](mailto:benseghiraymen26@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/aymen-benseghir)
