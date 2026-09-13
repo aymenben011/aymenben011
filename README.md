@@ -1,140 +1,91 @@
-# 👋 Bienvenue sur mon GitHub!
+# Aymen Benseghir
 
-Je m'appelle **Aymen Benseghir**, Data Scientist junior spécialisé en **modélisation statistique** et **machine learning**. Je transforme des données complexes en solutions prédictives à forte valeur ajoutée pour soutenir la prise de décision.
+Data scientist / data analyst junior, formé à la statistique et à l'économétrie.
+Je travaille sur l'ensemble de la chaîne : collecte et mise en forme des données, modélisation,
+restitution à des interlocuteurs non spécialistes.
 
----
-
-## 🎯 À propos de moi
-
-📍 **Localisation** : France (mobilité nationale)  
-📧 **Email** : [benseghiraymen26@gmail.com](mailto:benseghiraymen26@gmail.com)  
-📱 **Téléphone** : +33 7 71 45 95 22  
-🎓 **Formation** : Master Statistiques & Économétrie (Université de Rennes 1, 2023-2025)
-
-Je conçois et déploie des modèles intelligents capables d'extraire des **insights exploitables** à partir de données variées. Je m'engage aussi à accompagner les équipes métiers dans l'interprétation des résultats et l'intégration des modèles dans leurs processus opérationnels.
+📍 France, mobilité nationale · 📧 benseghiraymen26@gmail.com ·
+💼 [LinkedIn](https://www.linkedin.com/in/aymen-benseghir)
 
 ---
 
-## 💼 Expériences Professionnelles
+## Projets
 
-### 🚀 Data Scientist en Supply Chain | Capgemini Engineering
-**Projet SMART SUPPLY - Mission AIRBUS** | Toulouse, France  
-*Avril 2025 – Octobre 2025 (6 mois)*
+**[sentiment-allocine](https://github.com/aymenben011/sentiment-allocine)** — Analyse de sentiment
+sur 200 000 critiques de films en français. Au-delà de la classification (93,5 % d'exactitude),
+le projet mesure ce que les bigrammes apportent face à la négation française en différence de
+différences, compare les modèles par test de McNemar apparié plutôt que par simple écart de score,
+et fait émerger par détection de communautés des regroupements de films qui correspondent à des
+genres — alors que le corpus n'en contient aucune étiquette.
+*Python, scikit-learn, networkx, statsmodels.*
 
-**Réalisations principales :**
-- 🏭 **Classification des fournisseurs** : Implémentation de plusieurs algorithmes de classification pour catégoriser les fournisseurs selon la matrice de Kraljic
-- 📊 **Système de scoring** : Création d'un système d'évaluation comparatif et individuel multi-axes
-- 🔍 **Analyse des non-conformités** : Conception d'une plateforme exploitant Word2Vec pour interpréter les déclarations
-- ⚙️ **Automatisation** : Mise en place de pipelines ETL complets avec tableaux de bord centralisés
-- 🤖 **Modèles prédictifs** : Anticipation du type de non-conformité à partir de l'historique d'évaluations
+**[rendements-education-iv](https://github.com/aymenben011/rendements-education-iv)** —
+Réplication de Card (1995) sur le rendement salarial d'une année d'études : moindres carrés contre
+variables instrumentales, tests d'identification, et simulation Monte-Carlo quantifiant l'effet
+d'un instrument faible. Implémenté en R, avec tests unitaires et sorties reproductibles en une
+commande.
+*R, AER, ggplot2, testthat.*
 
-**Stack technique** : Python | SQL | Power BI | R Shiny | LLM (Hugging Face)
+**[churn-prediction-analysis](https://github.com/aymenben011/churn-prediction-analysis)** —
+Attrition client sur le jeu Telco (7 043 clients), menée de l'audit qualité jusqu'à la
+recommandation chiffrée. Le seuil de décision est fixé par maximisation du profit (0,405) et non
+laissé à 0,50, et trois résultats vont à contre-courant des réflexes habituels : le gradient
+boosting n'apporte rien sur des effets additifs, le rééquilibrage de classes dégrade la
+calibration sans améliorer le classement, et l'optimum empirique du seuil retrouve exactement sa
+valeur théorique.
+*Python, scikit-learn, SHAP.*
 
----
-
-### 📈 Data Scientist/Analyst | Département d'Ille et Vilaine
-**Rennes, France** | *Mai 2024 – Juin 2024 (2 mois)*
-
-**Réalisations principales :**
-- 🔮 **Modélisation prédictive** : Prédiction du nombre de personnes placées et du flux d'entrées/sorties
-- 📱 **Plateforme de visualisation** : Développement de tableaux de bord R Shiny pour exploration KPI
-- 📉 **Analyse temporelle** : Suivi des tendances, durées et efficacité
-
-**Stack technique** : R | Python | SQL
-
----
-
-### 📦 Data Analyst en Supply Chain | Tolimar (Tôlerie Industrielle)
-**Casablanca, Maroc** | *Juin 2023 – Août 2023 (3 mois)*
-
-**Réalisations principales :**
-- 📊 **Analyse de performance** : Étude des écarts production planifiée vs réelle via ERP
-- 📉 **Optimisation Supply Chain** : Gestion des stocks (acier, aluminium) et optimisation des niveaux de réapprovisionnement
-
-**Stack technique** : R | Python | Excel
+**[pharmaveille](https://github.com/aymenben011/pharmaveille)** — Application de suivi des dates
+de péremption en officine : seuils d'alerte cumulables de 1 à 6 mois, valorisation du stock à
+risque, export compatible Excel français. Logique métier isolée de l'interface et couverte par
+41 tests.
+*Python, Streamlit, SQLite.*
 
 ---
 
-## 🛠️ Compétences Techniques
+## Expérience
 
-### Machine Learning & IA
-- **Modèles** : Apprentissage supervisé & non supervisé, modèles économétriques, deep learning
-- **NLP & LLM** : Traitement du langage naturel, utilisation de modèles transformers
-- **Time Series** : Analyse et prévision de séries temporelles
-- **Statistiques** : Analyse statistique avancée, inférence bayésienne
+**Data scientist, supply chain — Capgemini Engineering** · Toulouse · avril–octobre 2025
+Projet SMART SUPPLY pour Airbus. Classification de fournisseurs selon la matrice de Kraljic,
+système de scoring multi-axes, exploitation des déclarations de non-conformité par plongements
+lexicaux, automatisation des pipelines et tableaux de bord.
+*Python, SQL, Power BI, R Shiny.*
 
-### Data & Business Intelligence
-- **BI Tools** : Power BI, Dash, R Shiny
-- **Visualisation** : Excel avancé, création de dashboards interactifs
-- **Data Apps** : Développement d'applications de visualisation
+**Data scientist / analyst — Département d'Ille-et-Vilaine** · Rennes · mai–juin 2024
+Modèles de prévision des flux de placement, tableaux de bord R Shiny pour l'exploration des
+indicateurs par les équipes métier.
+*R, Python, SQL.*
 
-### Programmation & Data Engineering
-- **Langages** : Python, SQL, R, SAS, C++
-- **Data Engineering** : Pipelines ETL/ELT, GitHub, Docker
-- **Cloud & Bases de données** : Azure, Snowflake (notions), BigQuery, Oracle, NoSQL
-- **MLOps** : Gestion des APIs, déploiement de modèles
-
----
-
-## 📚 Formation
-
-| Diplôme | Université | Années |
-|---------|-----------|--------|
-| **Master Statistiques et Économétrie** | Université de Rennes 1 | 2023 - 2025 |
-| **Licence Génie Mathématiques** | Université de Rennes 1 | 2020 - 2023 |
+**Data analyst, supply chain — Tolimar** · Casablanca · juin–août 2023
+Analyse des écarts entre production planifiée et réalisée à partir des données ERP, optimisation
+des niveaux de réapprovisionnement.
+*R, Python, Excel.*
 
 ---
 
-## 🔗 Projets en Vedette
+## Compétences
 
-<!-- Ajoute ici les liens vers tes repositoires GitHub importants -->
+**Langages** — Python, SQL, R
 
-*Consultez mes projets ci-dessous pour voir des exemples concrets de mon travail en data science :*
+**Machine learning et statistiques** — Apprentissage supervisé et non supervisé, modèles
+économétriques, séries temporelles, traitement du langage naturel et LLM, deep learning
 
-- 📊 **[Placeholder - Classifier Project]** - Classification de fournisseurs avec Machine Learning
-- 🤖 **[Placeholder - NLP Project]** - Analyse de non-conformités avec Word2Vec et embeddings
-- 📈 **[Placeholder - Predictive Models]** - Modèles prédictifs de séries temporelles
+**BI et applications** — Power BI, Tableau, Excel, Streamlit, R Shiny
 
----
+**Données et outils** — MySQL, NoSQL, BigQuery, Databricks, Docker, Git
 
-## 🎓 Domaines d'Expertise
-
-✨ **Modélisation statistique avancée**  
-✨ **Machine Learning appliqué**  
-✨ **Supply Chain Analytics**  
-✨ **Natural Language Processing (NLP)**  
-✨ **Data Visualization & Business Intelligence**  
-✨ **Data Engineering & Pipelines ETL**
+**Langues** — Français, anglais (C1)
 
 ---
 
-## 🤝 Collaboration
+## Formation
 
-Je suis toujours intéressé par des opportunités de :
-- 💡 Collaborer sur des projets data science intéressants
-- 🚀 Contribuer à des projets open-source
-- 📊 Partager mes connaissances et apprentissages
-- 🔗 Discuter de data science, machine learning et innovation
-
-**N'hésitez pas à me contacter** pour discuter de projets ou opportunités !
+| Diplôme | Établissement | Années |
+|---|---|---|
+| Master Statistiques, Économétrie et Science des Données | Université de Rennes 1 | 2023–2025 |
+| Licence Génie mathématiques | Université de Rennes 1 | 2020–2023 |
 
 ---
 
-## 💬 Contactez-moi
-
-- 📧 **Email** : [benseghiraymen26@gmail.com](mailto:benseghiraymen26@gmail.com)
-- 📱 **Téléphone** : +33 7 71 45 95 22
-- 🌍 **LinkedIn** : https://www.linkedin.com/in/aymen-benseghir
-- 🐦 **Twitter** : [À ajouter]
-
----
-
-## 📄 Licence
-
-Ce profil et mes projets sont disponibles sous licence MIT (ou celle de votre choix).
-
----
-
-**Merci de votre visite ! 🙏**
-
-*Dernière mise à jour : Mai 2026*
+Actuellement en recherche d'un poste de data scientist ou data analyst.
+N'hésitez pas à me contacter.
