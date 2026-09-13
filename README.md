@@ -42,7 +42,7 @@ Réplication économétrique étudiant l'effet causal d'une année supplémentai
 
 ---
 
-### 📊 [churn-prediction-analysis](https://github.com/aymenben011/churn-prediction-analysis)
+### 📊 [churn-prediction-analysis](https://github.com/aymenben011/Prediction_attrition_client)
 **Prédiction d'attrition client — Telco**
 
 Analyse complète du churn sur **7 043 clients**, de l'audit qualité des données jusqu'à la recommandation opérationnelle.
